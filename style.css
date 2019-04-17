@@ -1,0 +1,25 @@
+.nav-brand{
+    background-color: blue;
+    font-size:16px;
+    border-radius: 10px;
+
+}
+body{
+    background: rgba(134, 196, 131, 0.753);
+}
+h1{
+    
+    background-color: transparent;
+
+}
+.autho-image{
+    width: 375px;
+    height: 250px;
+    border: 1px solid red;
+    border-radius: 5px;
+    float: left;
+}
+#Input3{
+    width: auto;
+    height: 275px;
+}
