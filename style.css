@@ -1,31 +1,4 @@
-<<<<<<< HEAD
-.nav-brand{
-    background-color: blue;
-    font-size:16px;
-    border-radius: 10px;
-
-}
-body{
-    background: rgba(134, 196, 131, 0.753);
-}
-h1{
-    
-    background-color: transparent;
-
-}
-.autho-image{
-    width: 375px;
-    height: 250px;
-    border: 1px solid red;
-    border-radius: 5px;
-    float: left;
-}
-#Input3{
-    width: auto;
-    height: 275px;
-}
-=======
-body {
+/* body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
   line-height: 34px;
@@ -111,12 +84,17 @@ nav {
 
 nav a {
   display: inline-block;
-  padding-left: 15px;
-  margin-left: 15px;
+  padding: 15px;
+  margin: 15px;
   line-height: 18px;
-  color: #999;
+  color: rgb(34, 5, 5);
   text-decoration: none;
   border-left: 1px solid #efefef;
+  background: #4aaaa5;
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  border-radius: 5px;
 }
 
 nav a:first-child {
@@ -167,7 +145,7 @@ h3, h2 {
   position: relative;
   float: left;
   width: 274px;
-  margin: 20px 0 25px;
+  margin: 20px;
   overflow: auto;
 }
 
@@ -177,7 +155,8 @@ h3, h2 {
 
 .work img {
   width: 100%;
-  max-width: 200px;
+  max-width: 2740px;
+  margin: 20px;
   border: 0 none;
   opacity: 0.8;
 }
@@ -232,7 +211,7 @@ textarea {
 }
 
 textarea {
-  height: 200px;
+  height: 100px;
 }
 
 input[type=submit] {
@@ -242,6 +221,16 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+.nav-item {
+  background-color: rgb(121, 207, 121);
+  width: 200px;
+  height: 80px;
+  border-radius: 5px;
+  text-align: center;
+
+
+}
   @media screen and (max-width: 980px) {
   
   }
@@ -253,4 +242,4 @@ input[type=submit] {
   @media screen and (max-width: 640px) {
     
   }
->>>>>>> 00f935ce2cde325b79715599330347dbe6bf74ec
+   
